@@ -14,7 +14,7 @@ TagManager:
   - UI
   - ground
   - finishline
-  - 
+  - Words
   - 
   - 
   - 
@@ -50,6 +50,9 @@ TagManager:
     locked: 0
   - name: finishline
     uniqueID: 1170908777
+    locked: 0
+  - name: Words
+    uniqueID: 513484813
     locked: 0
   - name: player
     uniqueID: 1382222629
