@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Playerone
   layers:
   - Default
   - TransparentFX
@@ -12,7 +13,7 @@ TagManager:
   - Water
   - UI
   - ground
-  - 
+  - finishline
   - 
   - 
   - 
@@ -46,6 +47,9 @@ TagManager:
     locked: 0
   - name: ground
     uniqueID: 518593691
+    locked: 0
+  - name: finishline
+    uniqueID: 1170908777
     locked: 0
   - name: player
     uniqueID: 1382222629
