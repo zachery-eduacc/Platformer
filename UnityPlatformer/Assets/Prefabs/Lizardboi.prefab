@@ -464,6 +464,8 @@ GameObject:
   - component: {fileID: 5286695528170413936}
   - component: {fileID: 4532890781378559415}
   - component: {fileID: 4532890781378559414}
+  - component: {fileID: 5834623338253582215}
+  - component: {fileID: -5531756136452441150}
   m_Layer: 19
   m_Name: Lizardboi
   m_TagString: Playerone
@@ -577,6 +579,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 4532890781378559415}
   runSpeed: 40
+--- !u!114 &5834623338253582215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4532890781378559408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31d42529b407367418e1efb99330df39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_JumpForce: 400
+  m_CrouchSpeed: 0.36
+  m_MovementSmoothing: 0.05
+  m_AirControl: 0
+  m_WhatIsGround:
+    serializedVersion: 2
+    m_Bits: 503
+  m_GroundCheck: {fileID: 0}
+  m_CeilingCheck: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 0}
+  OnLandEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCrouchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-5531756136452441150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4532890781378559408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99e4ca3e802973498a5d599efbaefaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxhealth: 3
+  currenthealth: 0
 --- !u!1 &4532890781605980576
 GameObject:
   m_ObjectHideFlags: 0
